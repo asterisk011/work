@@ -103,12 +103,6 @@ if($("body").is("#index") == true){
 		$("#gallery #contents .detail").fadeOut(500,'swing');
 		return false;
 	});	
-	$("#gallery #contents .thumb li").each(function(e){
-		$("#gallery #contents .thumb li").eq(e).find("> a").css({
-			"background":"url(https://postimg.cc/gallery/DKDZd8f" + (e+1) + ".jpg) no-repeat 50% 50%",
-			"background-size":"cover"
-		});	
-	});
 
 	$("#gallery #contents .line").slice(0,4).show();
 	$("#gallery #contents .more").click(function(e){
@@ -235,8 +229,8 @@ if($("body").is("#index") == true){
 	$("#room .content .room_ttl .inner").prepend(
 		'<div class="left">' +
 		'<h3>' + p_e_ttl[val] + '<span>' + p_k_ttl[val] + '</span></h3>' + 
-		'<p>바다전망 복층형 타입으로 미드센츄리풍 커튼월액자같은 창에 <br />' +
-		'사색하는 바다햇살이 잠을 깨우는 침실은 블랙 앤 화이트에 Vivid컬러로 포인트를 주었습니다. <br /><br />' +
+		'<p>' + room_detail_1[val] + '<br />'  +
+		room_detail_2[val]+'<br /><br />' +
 		'<p>' +
 		'</div>' +
 		'<a href="https://booking.naver.com/booking/3/bizes/272912" class="room_rv">실시간 예약하기</a>'

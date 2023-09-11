@@ -13,7 +13,7 @@ header .nav > ul > li.glst_02,header .nav > ul > li.glst_03 {position:relative;}
 header .nav > ul > li.glst_02 ul,header .nav > ul > li.glst_03 ul {position:absolute;left:0;top:41px;background:rgba(255,255,255,0.6);padding-left:20px;width:125px;display:none; }
 header .nav > ul > li.glst_02 ul li,header .nav > ul > li.glst_03 ul li {line-height:1.6em;}
 header .nav > ul > li.glst_03 ul li a {font-size:14px;}
-header .nav > ul > li.glst_02 ul li a:hover,header .nav > ul > li.glst_03 ul li a:hover {font-weight:bold;}
+header .nav > ul > li.glst_02 ul li a:hover,header .nav > ul > li.glst_03 ul li a:hover {font-weight:bolder;}
 header .nav > ul > li.glst_02 ul li.first,header .nav > ul > li.glst_03 ul li.first {padding-top:15px;}
 header .nav > ul > li.glst_02 ul li.last,header .nav > ul > li.glst_03 ul li.last {padding-bottom:15px;}
 header .nav > ul > li {float:left;}
