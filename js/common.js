@@ -13,6 +13,11 @@ var dwh = $(window).width();
 var num = location.href.substr(location.href.lastIndexOf('_') + 1);
 var val = num.slice(0, 2);
 	val = val - 1;
+var UserAgent = navigator.userAgent; 
+if (UserAgent.match(/iPhone|ipad|Android|Windows CE|BlackBerry|Symbian|Windows Phone|webOS|Opera Mini|Opera Mobi|POLARIS|IEMobile|lgtelecom|nokia|SonyEricsson/i) != null || UserAgent.match(/LG|SAMSUNG|Samsung/) != null)
+{
+  location.href = "m/index.html"; /* 모바일 홈페이지 경로 */
+}
 //font-family
 (function(d) {
   var config = {
